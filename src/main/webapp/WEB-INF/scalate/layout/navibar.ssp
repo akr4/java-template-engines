@@ -1,0 +1,16 @@
+<%@ val navibarItemId: String %>
+<%@ val templateEngines: Array[net.physalis.javaviews.domain.model.TemplateEngine] %>
+<div id="navibar" class="navbar" data-active-navibar-item-id="${navibarItemId}">
+  <div class="navbar-inner">
+    <div class="container" style="width: auto;">
+      <a class="brand" href=""."">Java Template Engines</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          #for (e <- templateEngines)
+            <li><a href="${e.getId}">${e.getEngineName}</a></li>
+          #end
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

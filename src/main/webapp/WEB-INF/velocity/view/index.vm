@@ -1,0 +1,25 @@
+#set($layout = "/layout/basic.vm")
+#set($title = "Java Template Engines")
+
+
+<article>
+  <div class="row">
+    <h1>Java Template Engines</h1>
+    <p>
+      This is an app to demonstrate how Java template engines work. Especially about:
+      <ul>
+        <li>HTML escape</li>
+        <li>Layout (Template Inheritance))</li>
+      </ul>
+    </p>
+
+    <pre><code>class WikiPage {
+  String getTitle()
+  WikiText getWikiText()
+}
+
+class WikiText implements SafeHtml {
+  String getValue()
+}</code></pre>
+  </div>
+</article>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../../stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../stylesheets/main.css">
+  <title>$!{title}</title>
+</head>
+<body>
+  #{parse}("/layout/navibar.vm")
+  <div class="container">
+    ${screen_content}
+  </div>
+  #{parse}("/layout/footer.vm")
+  <script src="../../../javascripts/jquery-2.0.0.min.js"></script>
+  <script src="../../../javascripts/navibar.js"></script>
+  $!{script}
+</body>
+</html>

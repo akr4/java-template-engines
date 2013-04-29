@@ -1,0 +1,15 @@
+.ok {
+  background-color: #cfc;
+}
+.ng {
+  background-color: #fcc;
+}
+.notSupported {
+  background-color: #ffc;
+}
+strong {
+  color: deepskyblue;
+}
+strong.unsafe {
+  color: fuchsia;
+}

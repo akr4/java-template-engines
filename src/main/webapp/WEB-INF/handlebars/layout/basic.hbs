@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../../stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../stylesheets/main.css">
+  <title>{{#block "title"}}DEFAULT TITLE{{/block}}</title>
+</head>
+<body>
+  {{> layout/navibar}}
+  <div class="container">
+    {{#block "content"}}DEFAULT CONTENT{{/block}}
+  </div>
+  {{> layout/footer}}
+  <script src="../../../javascripts/jquery-2.0.0.min.js"></script>
+  <script src="../../../javascripts/navibar.js"></script>
+  {{#block "script"}}{{/block}}
+</body>
+</html>

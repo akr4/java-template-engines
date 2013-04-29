@@ -1,0 +1,52 @@
+#set($layout = "/layout/basic.vm")
+#set($title = "Velocity")
+
+
+<article>
+  <div class="row">
+    <h1>HTML Escape</h1>
+    <p></p>
+    <div class="span6">
+      <h3>String</h3>
+      <dl>
+        <dt>code</dt>
+        <dd><pre><code>\${wikiPage.title}</code></pre></dd>
+        <dt>result</dt>
+        <dd><pre class="ok"><code>${wikiPage.title}</code></pre></dd>
+      </dl>
+    </div>
+    <div class="span6">
+      <h3>Object</h3>
+      <dl>
+        <dt>code</dt>
+        <dd><pre><code>\${wikiPage}</code></pre></dd>
+        <dt>result</dt>
+        <dd><pre class="ok"><code>${wikiPage}</code></pre></dd>
+      </dl>
+    </div>
+    <div class="span6">
+      <h3>String (explicit no escape)</h3>
+      <dl>
+        <dt>code</dt>
+        <dd><pre><code>\${wikiPage.wikiText.valueNoEscape}</code></pre></dd>
+        <dt>result</dt>
+        <dd><pre class="ok"><code>${wikiPage.wikiText.valueNoEscape}</code></pre></dd>
+      </dl>
+    </div>
+    <div class="span6">
+      <h3>Safe HTML Object</h3>
+      <dl>
+        <dt>code</dt>
+        <dd><pre><code>\${wikiPage.wikiText}</code></pre></dd>
+        <dt>result</dt>
+        <dd><pre class="ok"><code>${wikiPage.wikiText}</code></pre></dd>
+      </dl>
+    </div>
+  </div>
+  <div class="row">
+    <h1>Version</h1>
+    <dl>
+      <dt>Velocity</dt><dd>1.7</dd>
+    </dl>
+  </div>
+</article>

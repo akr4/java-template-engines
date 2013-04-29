@@ -1,0 +1,53 @@
+{{#partial "title"}}Handlebars{{/partial}}
+{{#partial "content"}}
+  <article>
+    <div class="row">
+      <h1>HTML Escape</h1>
+      {{#with wikiPage}}
+        <div class="span6">
+          <h3>String</h3>
+          <dl>
+            <dt>code</dt>
+            <dd><pre><code>&#123;&#123;title&#125;&#125;</code></pre></dd>
+            <dt>result</dt>
+            <dd><pre class="ok"><code>{{title}}</code></pre></dd>
+          </dl>
+        </div>
+        <div class="span6">
+          <h3>Object</h3>
+          <dl>
+            <dt>code</dt>
+            <dd><pre><code>&#123;&#123;wikiText&#125;&#125;</code></pre></dd>
+            <dt>result</dt>
+            <dd><pre class="ng"><code>{{wikiText}}</code></pre></dd>
+          </dl>
+        </div>
+        <div class="span6">
+          <h3>String (explicit no escape)</h3>
+          <dl>
+            <dt>code</dt>
+            <dd><pre><code>&#123;&#123;&#123;title&#125;&#125;&#125;</code></pre></dd>
+            <dt>result</dt>
+            <dd><pre class="ok"><code>{{{title}}}</code></pre></dd>
+          </dl>
+        </div>
+        <div class="span6">
+          <h3>Safe HTML Object</h3>
+          <dl>
+            <dt>code</dt>
+            <dd><pre><code>&#123;&#123;wikiText.handlebarsSafeString&#125;&#125;</code></pre></dd>
+            <dt>result</dt>
+            <dd><pre class="ok"><code>{{wikiText.handlebarsSafeString}}</code></pre></dd>
+          </dl>
+        </div>
+      {{/with}}
+    </div>
+    <div class="row">
+      <h1>Version</h1>
+      <dl>
+        <dt><a href="https://github.com/jknack/handlebars.java">Handlebars.java</a></dt><dd>0.12.0</dd>
+      </dl>
+    </div>
+  </article>
+{{/partial}}
+{{> layout/basic}}

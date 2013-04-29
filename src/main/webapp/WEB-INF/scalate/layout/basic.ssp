@@ -1,0 +1,22 @@
+<%@ val title: String %>
+<%@ val body: String %>
+<%@ val script: String = "" %>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../../stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../stylesheets/main.css">
+  <title>${title}</title>
+</head>
+<body>
+  ${include("../layout/navibar.ssp")}
+  <div class="container">
+      ${unescape(body)}
+  </div>
+  ${include("../layout/footer.ssp")}
+  <script src="../../../javascripts/jquery-2.0.0.min.js"></script>
+  <script src="../../../javascripts/navibar.js"></script>
+  ${unescape(script)}
+</body>
+</html>
