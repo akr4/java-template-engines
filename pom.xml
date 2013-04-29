@@ -4,16 +4,14 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.physalis</groupId>
-  <artifactId>javaviews</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <artifactId>java-template-engines</artifactId>
+  <version>1.0</version>
   <packaging>war</packaging>
   <name>${project.artifactId}</name>
 
   <properties>
     <spring.version>3.2.2.RELEASE</spring.version>
-    <jackson.version>2.1.2</jackson.version>
     <logback.version>1.0.9</logback.version>
-    <querydsl.version>2.9.0</querydsl.version>
 
     <!-- default vars -->
     <jetty.port>8080</jetty.port>
