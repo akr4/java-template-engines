@@ -2,7 +2,7 @@
 This is an app to demonstrate how Java template engines work. Especially about:
 
 - HTML escape
-- Layout (Template Inheritance))
+- Layout (Template Inheritance)
 
 # Run
 
