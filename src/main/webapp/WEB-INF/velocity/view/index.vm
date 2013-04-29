@@ -12,7 +12,9 @@
         <li>Layout (Template Inheritance))</li>
       </ul>
     </p>
-
+  </div>
+  <div class="row">
+    <h1>Model</h1>
     <pre><code>class WikiPage {
   String getTitle()
   WikiText getWikiText()
