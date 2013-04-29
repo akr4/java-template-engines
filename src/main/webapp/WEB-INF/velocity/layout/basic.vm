@@ -7,13 +7,14 @@
   <title>$!{title}</title>
 </head>
 <body>
-  #{parse}("/layout/navibar.vm")
+  #parse("/layout/navibar.vm")
   <div class="container">
     ${screen_content}
   </div>
-  #{parse}("/layout/footer.vm")
+  #parse("/layout/footer.vm")
   <script src="../../../javascripts/jquery-2.0.0.min.js"></script>
   <script src="../../../javascripts/navibar.js"></script>
   $!{script}
+  #include("/layout/ga.vm")
 </body>
 </html>

@@ -1,4 +1,4 @@
-<div id="navibar" class="navbar" data-active-navibar-item-id="${navibarItemId}">
+<div id="navibar" class="navbar" data-active-navibar-item-id="$!{navibarItemId}">
   <div class="navbar-inner">
     <div class="container" style="width: auto;">
       <a class="brand" href=".">Java Template Engines</a>
