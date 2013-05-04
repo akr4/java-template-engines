@@ -1,0 +1,2 @@
+#* @implicitly included *#
+#* @vtlvariable name="wikiPage" type="net.physalis.javaviews.domain.model.WikiPage" *#
