@@ -12,7 +12,7 @@
 <body>
   ${include("../layout/navibar.ssp")}
   <div class="container">
-      ${unescape(body)}
+    ${unescape(body)}
   </div>
   ${include("../layout/footer.ssp")}
   <script src="../../../javascripts/jquery-2.0.0.min.js"></script>
