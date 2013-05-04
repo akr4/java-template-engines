@@ -9,5 +9,5 @@ This is an app to demonstrate how Java template engines work. Especially about:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 mvn jetty:run
 
-open http://localhost:8080/app/
+open http://localhost:8080
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
