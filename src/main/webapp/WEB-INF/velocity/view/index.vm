@@ -24,4 +24,73 @@ class WikiText implements SafeHtml {
   String getValue()
 }</code></pre>
   </div>
+
+  <div class="row">
+    <h1>Comparison</h1>
+    <table class="table table-bordered table-striped table-hover">
+      <thead>
+      <tr>
+        <th colspan="2">Template Engine</th>
+        <th>JSP</th>
+        <th>Velocity</th>
+        <th>FreeMarker</th>
+        <th>Handlebars.java</th>
+        <th>Scalate (SSP)</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th rowspan="2">#springMessage("feature.htmlEscape")</th>
+        <th>#springMessage("feature.htmlEscape.defaultEscape")</th>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+      </tr>
+      <tr>
+        <th>#springMessage("feature.htmlEscape.unescapeByClassDefinition")</th>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ng")</td>
+      </tr>
+      <tr>
+        <th rowspan="2">#springMessage("feature.layout")</th>
+        <th>#springMessage("feature.layout.basicLayout")</th>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+      </tr>
+      <tr>
+        <th>#springMessage("feature.layout.templateInheritance")</th>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ng")</td>
+      </tr>
+      <tr>
+        <th rowspan="2">#springMessage("feature.other")</th>
+        <th>#springMessage("feature.other.installationResults")</th>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ng")</td>
+      </tr>
+      <tr>
+        <th>#springMessage("feature.other.useInOtherThanHtml")</th>
+        <td>#springMessage("feature.ng")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+        <td>#springMessage("feature.ok")</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
 </article>

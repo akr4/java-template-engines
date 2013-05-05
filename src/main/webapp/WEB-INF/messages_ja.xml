@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <entry key="feature.ok">○</entry>
+  <entry key="feature.ng">×</entry>
+  <entry key="feature.htmlEscape">HTML エスケープ</entry>
+  <entry key="feature.htmlEscape.defaultEscape">デフォルトエスケープ</entry>
+  <entry key="feature.htmlEscape.unescapeByClassDefinition">クラス定義によるエスケープ回避</entry>
+  <entry key="feature.layout">レイアウト</entry>
+  <entry key="feature.layout.basicLayout">基本レイアウト</entry>
+  <entry key="feature.layout.templateInheritance">テンプレート継承</entry>
+  <entry key="feature.other">その他</entry>
+  <entry key="feature.other.installationResults">実績</entry>
+  <entry key="feature.other.useInOtherThanHtml">HTML 以外での利用</entry>
+</properties>

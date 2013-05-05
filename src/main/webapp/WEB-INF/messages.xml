@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <entry key="feature.ok">✓</entry>
+  <entry key="feature.ng">✗</entry>
+  <entry key="feature.htmlEscape">HTML Escape</entry>
+  <entry key="feature.htmlEscape.defaultEscape">Default Escape</entry>
+  <entry key="feature.htmlEscape.unescapeByClassDefinition">Unescape By Class Definition</entry>
+  <entry key="feature.layout">Layout</entry>
+  <entry key="feature.layout.basicLayout">Basic Layout</entry>
+  <entry key="feature.layout.templateInheritance">Template Inheritance</entry>
+  <entry key="feature.other">Other</entry>
+  <entry key="feature.other.installationResults">Installation Results</entry>
+  <entry key="feature.other.useInOtherThanHtml">Use In Other Than HTML</entry>
+</properties>
