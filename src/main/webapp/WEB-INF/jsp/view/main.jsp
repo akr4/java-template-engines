@@ -70,6 +70,5 @@
 <%@ include file="/WEB-INF/jsp/layout/footer.jspf"%>
 <script src="../../../javascripts/jquery-2.0.0.min.js"></script>
 <script src="../../../javascripts/navibar.js"></script>
-<%@ include file="/WEB-INF/jsp/layout/ga.jspf"%>
 </body>
 </html>

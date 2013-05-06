@@ -18,6 +18,5 @@
   <script src="../../../javascripts/jquery-2.0.0.min.js"></script>
   <script src="../../../javascripts/navibar.js"></script>
   ${unescape(script)}
-  ${include("../layout/ga.ssp")}
 </body>
 </html>
