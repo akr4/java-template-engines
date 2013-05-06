@@ -74,15 +74,7 @@ class WikiText implements SafeHtml {
         <td>#springMessage("feature.ng")</td>
       </tr>
       <tr>
-        <th rowspan="2">#springMessage("feature.other")</th>
-        <th>#springMessage("feature.other.installationResults")</th>
-        <td>#springMessage("feature.ok")</td>
-        <td>#springMessage("feature.ok")</td>
-        <td>#springMessage("feature.ok")</td>
-        <td>#springMessage("feature.ng")</td>
-        <td>#springMessage("feature.ng")</td>
-      </tr>
-      <tr>
+        <th rowspan="1">#springMessage("feature.other")</th>
         <th>#springMessage("feature.other.useInOtherThanHtml")</th>
         <td>#springMessage("feature.ng")</td>
         <td>#springMessage("feature.ok")</td>

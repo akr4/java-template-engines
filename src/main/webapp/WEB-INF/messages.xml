@@ -10,6 +10,5 @@
   <entry key="feature.layout.basicLayout">Basic Layout</entry>
   <entry key="feature.layout.templateInheritance">Template Inheritance</entry>
   <entry key="feature.other">Other</entry>
-  <entry key="feature.other.installationResults">Installation Results</entry>
   <entry key="feature.other.useInOtherThanHtml">Use In Other Than HTML</entry>
 </properties>

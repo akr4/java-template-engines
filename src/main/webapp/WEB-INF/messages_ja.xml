@@ -10,6 +10,5 @@
   <entry key="feature.layout.basicLayout">基本レイアウト</entry>
   <entry key="feature.layout.templateInheritance">テンプレート継承</entry>
   <entry key="feature.other">その他</entry>
-  <entry key="feature.other.installationResults">実績</entry>
   <entry key="feature.other.useInOtherThanHtml">HTML 以外での利用</entry>
 </properties>
